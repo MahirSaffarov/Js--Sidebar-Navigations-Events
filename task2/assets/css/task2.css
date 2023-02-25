@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow: hidden;
+}
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: white;
+    position: relative;
+    transition: all 0.5s;
+    float: right;
+    
+}
+i{
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top:10px
+}
+.x-sign{
+    display: none;
+    color: white;
+}
+.barsign{
+    color: black !important;
+}
+.hide{
+    transform: translate(150px);
+}
+ul{
+    list-style: none;
+    color: white;
+    padding-left: 40%;
+    padding-top: 30%;
+}
+li{
+    margin-top: 10%;
+}
